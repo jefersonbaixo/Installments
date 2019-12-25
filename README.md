@@ -7,6 +7,9 @@ $npm install (Into source folder)
 ## Running
 $npm start (Into source folder)
 
+## Live Preview
+https://installments.now.sh/
+
 ### Dependencies
     "@angular/animations": "~8.2.14",
     "@angular/cdk": "~8.2.3",
