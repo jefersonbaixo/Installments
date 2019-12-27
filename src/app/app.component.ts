@@ -20,6 +20,13 @@ export class AppComponent implements OnInit{
     this.createForm(new Bill());
   }
 
+  onSubmit(obj: Bill){
+    this.alert.open('Você pode ver o resultado no console!', 'Ok', {
+      duration: 3000
+    })
+    console.log(obj);
+  }
+
   createForm(bill: Bill){
     this.form = this.fb.group({
       value: [bill.value, Validators.required],

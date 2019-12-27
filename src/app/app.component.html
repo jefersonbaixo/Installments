@@ -1,5 +1,5 @@
 <mat-card class="card">
-    <form [formGroup]="form">
+    <form [formGroup]="form" (ngSubmit)="onSubmit(form.value)">
         <h1>Calculadora de Parcelas</h1>
         <div>
             <mat-form-field class="field">
@@ -34,5 +34,6 @@
                 </div>
             </div>
         </div>
+        <button class="submit-button" type="submit" mat-raised-button color="primary">Enviar</button>
     </form>
 </mat-card>
