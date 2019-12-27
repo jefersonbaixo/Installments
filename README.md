@@ -1,12 +1,16 @@
 # Installments
 It is a Angular Component that divide a bill value in installments.
 
-##Installing dependencies
+## Installing dependencies
 $npm install (Into source folder)
 
-##Running
+## Running
 $npm start (Into source folder)
 
+## Live Preview
+https://installments.now.sh/
+
+### Dependencies
     "@angular/animations": "~8.2.14",
     "@angular/cdk": "~8.2.3",
     "@angular/common": "~8.2.14",
